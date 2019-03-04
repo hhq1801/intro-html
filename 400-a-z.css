@@ -1,0 +1,2429 @@
+/* Styles Common to Contensis Web Controls */
+
+/* Start Defaults and Resets */
+
+	.sys_atozlisting-themed {
+	margin: 0px;
+	padding: 0px;
+	width: 430px;
+    /* changed width to fit Generic Narrow templates - SJT 03/09/14 */
+	}
+	.sys_theme-simple h1, .sys_theme-simple h2, .sys_theme-simple h3, .sys_theme-simple h4 {
+	color:inherit;
+	background:inherit;
+	line-height:1.2em;
+	margin:0;
+	padding:0;}
+	
+	.sys_theme-simple div {
+	background:none;
+	margin:0px;
+	border:0 none;
+	padding: 0px;
+	
+}
+	
+	.sys_theme-simple p {
+	background:none;
+	border:0 none;}
+	
+	.sys_theme-simple ul {
+	margin:0 0 1em 0;
+	padding:0;}
+	
+	.sys_theme-simple ul, 
+	.sys_theme-simple ul li {
+	background:none;
+	width:auto;
+	height:auto;}
+		.sys_theme-simple ul li {
+		margin:0;
+		padding:.3em 0;
+		}
+		
+/* End Defaults and Resets */
+
+/* Data Repeaters */
+
+	/* Search Term Text */
+	.sys_theme-simple .sys_search-term-text {
+	color:#666666;
+	min-height:1em;
+	填充：12px 0 5px 0;
+	字体重量：700;}
+	
+	/ *你的意思是文字* /
+	.sys_theme-simple .sys_search-control .sys_didyoumean {
+	颜色：＃666;
+	}
+		.sys_theme-simple .sys_search-control .sys_didyoumean p {
+		余量：0;
+		显示：内联;}
+				
+		/ *工具控制* /
+		.sys_theme-simple .sys_tools-control {
+		保证金：0 0 10px 0;
+		填充：.6em 0;
+		text-align：right;
+		宽度：100％;
+		border-top：1px solid #ecebeb;
+		border-bottom：1px solid #ecebeb;
+		字体重量：700;}
+			.sys_theme-simple .sys_tools-control：after {
+			内容：“。”; 
+			显示：块;
+			身高：0; 
+			明确：两者; 
+			可见性：隐藏;}
+			
+			.sys_theme-simple .sys_tools-control div {	
+			漂浮：对;
+			最小高度：16px;
+			文本对齐：左;
+			填充右：18像素;
+			background-repeat：no-repeat;
+			background-position：0 50％;
+			}
+				
+				.sys_theme-simple .sys_tools-control div a {
+				显示：块;
+				颜色：＃333;
+				text-decoration：none;
+				填充：2px 0 2px 22px;
+				background-repeat：no-repeat;
+				background-position：0 50％;
+				}
+					
+					.sys_theme-simple .sys_tools-control div a：hover {
+					文字装饰：下划线;
+					}
+		
+	/ * RSS和Atom Links * /
+	.sys_rss-link，.sys_atom-link {
+	宽度：110px！重要;
+	位置：绝对重要的;！
+	text-align：right！important;
+}
+.sys_rss-link {
+	右：25px的重要;！
+}
+.sys_atom-link {
+	右：135px重要;
+}
+.sys_rss-link a，.sys_atom-link a {
+	font-size：12px！important;
+	颜色：＃000000！重要;
+	文字修饰：无重要;
+	保证金：0px！important;
+	显示：阻止！重要;
+	background-repeat：no-repeat！important;
+	背景位置：右上角;
+	padding-top：10px！important;
+	padding-right：35px！important;
+	padding-bottom：3px！important;
+	padding-left：0px！important;
+	font-family：'BureauGrotesqueThreeSeven'，Arial，Helvetica，sans-serif！important;
+	text-transform：uppercase！important;
+	身高：22px！重要;
+}
+.sys_rss-link a：hover，.sys_atom-link a：hover {
+	background-position：right -40px;
+	文字装饰：下划线;
+}
+.sys_rss-link a {
+	background-image：url（/SiteElements/images/internalrss.jpg）;
+}
+.sys_atom-link a {
+	background-image：url（/SiteElements/images/internalatom.jpg）;
+}
+				
+		/ *其他链接* /
+		.sys_theme-simple .sys_tools-control .sys_button-subscribe-email a {
+		background-image：url（“imgs / email-feed-icon.gif”）;}
+		
+		.sys_theme-simple .sys_tools-control .sys_button-newsearch a {
+		background-image：url（“imgs / search-icon.gif”）;}
+		
+		.sys_theme-simple .sys_tools-control .sys_button-backlink a {
+		background-image：url（“imgs / back-icon.gif”）;}
+	
+	/ *标题* /
+	.sys_theme-simple h1.sys_standardlist-title， 
+	 
+	.sys_theme-simple h3.sys_standardlist-title，
+	.sys_theme-simple h4.sys_standardlist-title，
+	.sys_theme-simple h5.sys_standardlist-title，
+	.sys_theme-simple .sys_standardlist-title {
+	位置：相对;
+	保证金：0 0 .8em 0;
+	填充：0;
+	字体大小：1.4em;
+	字体重量：700;}
+	
+	.sys_theme-simple h2.sys_standardlist-title {
+		font-size：25px;
+	font-family：'BureauGrotesqueThreeSeven'，Arial，Helvetica，sans-serif;
+	填充：0px;
+	margin-top：0px;
+	margin-right：0px;
+	margin-bottom：18px;
+	margin-left：0px;
+	字体重量：正常;
+	TEXT-INDENT：0像素;
+	}
+	
+	/ *标准中继器* /
+	.sys_theme-simple .sys_datarepeatercontrol {
+	余量：0;
+	填充：0;
+	宽度：100％;
+	最小高度：1px的;}
+	
+	/ *数据重复项目列表* /
+	.sys_theme-simple .sys_datarepeatercontrol .sys_itemslist {
+	明确：两者;
+	余量：0;
+	填充：0 0 1em 0;
+	}
+
+	/ *数据中继器组头样式* /
+		.sys_theme-simple .sys_datarepeatercontrol .sys_groupheader {
+		字体大小：1.2em;
+		字体重量：700;
+		保证金：.8em 0 .2em 0;
+		明确：两者;
+		/ *文本转换：大写; * /
+		}
+			.sys_theme-simple .sys_datarepeatercontrol .sys_groupheader span {
+			/ *填充左：12px的;
+			填充底：2px的;
+			border-bottom：1px solid＃d7d7d7; * /}
+	
+	/ *数据转发器子项目* /
+	.sys_theme-simple .sys_datarepeatercontrol .sys_subitem {
+	背景：＃f7f7f7;
+	位置：相对;
+	的z-index：1;
+	最小高度：1em的;
+	缩放：1;
+	明确：两者;
+	margin-top：1.8em;
+	margin-right：0;
+	margin-bottom：10px;
+	margin-left：0;
+	填充：0;
+	}
+		.sys_theme-simple .sys_datarepeatercontrol .sys_subitem * {
+		位置：相对;
+		缩放：1;
+		}
+		
+		/ *子项目标题* /
+		.sys_theme-simple .sys_itemslist .sys_subitem .sys_subitem-heading {
+	显示：块;
+	字体大小：1em的;
+	保证金：0px 0 10px 10px;
+	填充：0;
+	位置：相对;
+	的z-index：99;
+	边界：0无;
+}
+.sys_generic_list-subheading a {
+	颜色：＃！333C3E重要;
+}
+		
+			.sys_theme-simple .sys_itemslist .sys_subitem .sys_subitem-heading a {
+	余量：0;
+	填充：5px 0 0 4px;
+	显示：内联块;
+	font-weight：bold;
+	位置：相对;
+	的z-index：100;
+	//top:0.5em;
+	font-family：Arial，Helvetica，sans-serif！important;
+}
+		.sys_subitem-heading a：hover {
+	颜色：＃000;
+}
+	
+		/* 图片 */
+		.sys_theme-simple .sys_itemslist div.sys_thumbnail {
+		浮动：权利;
+		保证金：-15px 6px 8px 8px;
+		填充：0;
+		位置：相对;
+		的z-index：999;
+		border：1px solid #ccc;
+		背景：#FFF;
+		背景重复：不重复;}
+			.sys_theme-simple .sys_itemslist div.sys_thumbnail a {
+			向左飘浮;
+			显示：块;
+			余量：0;
+			填充：0;
+			}
+				.sys_theme-simple .sys_itemslist div.sys_thumbnail a：hover {
+				border：3px solid #ccc;
+				余量：-3px;}
+				.sys_theme-simple .sys_itemslist div.sys_thumbnail a：active {
+				border：3px solid＃333;
+				余量：-3px;}
+			
+			.sys_theme-simple .sys_itemslist div.sys_thumbnail img {
+			显示：块;
+			余量：0;
+			填充：0;}
+			
+		/ *图标* /
+		.sys_theme-simple .sys_itemslist div.sys_icon {
+		漂浮：对;
+		保证金：-15px 6px 6px 8px;
+		填充：0;
+		位置：相对;
+		的z-index：999;
+		宽度：32PX;
+		高度：32PX;
+		background-position：0 0;
+		背景重复：不重复;}
+		
+		/ *子项目摘要* /
+		.sys_theme-simple .sys_itemslist div.sys_subitem-summary {
+	位置：相对;
+	的z-index：300;
+	顶：0像素;
+	余量：0;
+	填充：0 0 0 9px;
+	最小高度：1em的;
+	缩放：1;
+	宽度：汽车;
+	背景：无;
+}
+	
+		/ * dls的结构* /
+		.sys_theme-simple .sys_datarepeatercontrol .sys_subitem dl {
+	margin-top：0;
+	margin-right：0;
+	margin-bottom：-10px;
+	margin-left：0;
+	padding-top：0;
+	padding-right：5px;
+	padding-bottom：10px;
+	padding-left：5px;
+		}
+			.sys_theme-simple .sys_datarepeatercontrol .sys_subitem dl dt {
+	向左飘浮;
+	余量：0;
+	填充：0;
+	位置：相对;
+	宽度：80px;
+	最小高度：1.2em;
+	颜色：＃333;
+	font-size：90％;
+	font-style：normal;
+			}
+			
+			.sys_theme-simple .sys_datarepeatercontrol .sys_subitem dl dd {
+	保证金：0 0 .25em 0;
+	填充：0;
+	位置：相对;
+	最小高度：1.2em;
+			}
+		
+			
+			.sys_theme-simple .sys_datarepeatercontrol .sys_subitem dl dd ul {
+			向左飘浮;
+			保证金：0 0 15px 0;
+			填充：0 0 0 20px;
+			明确：无;}
+		
+				.sys_theme-simple .sys_datarepeatercontrol .sys_subitem dl dd ul li {
+				余量：0;
+				填充：0;
+				边界：0无;
+				列表样式类型：光碟;
+				背景：无;
+				border：0 none;}
+	
+	/ * Minilist Controls * /
+	.sys_theme-simple .sys_datarepeatercontrol li.sys_subitem {
+	边界：0无;
+	背景：无;
+	余量：0;
+	填充：.4em 10px .4em 10px;
+	border-bottom：1px solid＃e3e3e3;
+	列表样式类型：无;}
+	.sys_theme-simple .sys_datarepeatercontrol li.sys_subitem.sys_last {
+	border-bottom：0 none;}
+	
+		.sys_theme-simple .sys_datarepeatercontrol li.sys_subitem a {
+		显示：块;
+		余量：0;
+		填充：0 0 0 25px;
+		background：url（“imgs / Bullet.gif”）2px .4em no-repeat;}
+		
+			.sys_theme-simple .sys_datarepeatercontrol li.sys_subitem span {
+			}
+	
+/ *后退按钮控制* /
+	.sys_theme-simple .sys_back-button-control {
+	最小高度：1.8em;
+	明确：两者;
+	填充：.2em 8px;
+	}
+		.sys_theme-simple .sys_back-button-control a {
+		浮动：权利;
+		background：url（“imgs / back-icon.gif”）0 50％no-repeat;
+		margin-left：10px;
+		填充：2px 0px 0px 21px;}
+	
+/ * Tabs Control * /
+.sys_theme-simple .sys_tabsfilter-control {
+边距：10px的;
+高度：24px的;
+border-bottom：1px solid #ccc;
+明确：两者;
+行高：16px的;}
+
+	.sys_theme-simple .sys_tabsfilter-control ul {
+	余量：0;
+	填充：0;}
+	
+	.sys_theme-simple .sys_tabsfilter-control：之后，
+	.sys_theme-simple .sys_tabsfilter-control ul：after {
+	内容：“。”; 
+	显示：块;
+	身高：0; 
+	明确：两者; 
+	可见性：隐藏;}
+	
+		.sys_theme-simple .sys_tabsfilter-control li {
+		向左飘浮;
+		明确：无;
+		列表样式类型：无;
+		列表样式图像：无;
+		border-top：1px solid #ccc;
+		border-right：1px solid #ccc;
+		border-left：1px solid #ccc;
+		border-bottom：0无;
+		保证金：0 5px 1px 0;
+		填充：0;
+		宽度：自动;
+		游标：指针;
+		光标：手;
+		z-index：0;
+		位置：相对;}
+		
+			.sys_theme-simple .sys_tabsfilter-control li a {
+			向左飘浮;
+			显示：块;
+			颜色：＃666;
+			背景：＃f0f0f0;
+			填充：4px 12px;
+			文字修饰：无;
+			位置：相对;}
+				.sys_theme-simple .sys_tabsfilter-control li a：hover {
+				颜色：＃333;
+				背景：#FFF;
+				文字修饰：无;
+				border：3px solid #ccc;
+				border-bottom：0无;
+				保证金：-3px -3px 0 -3px;}
+			
+			.sys_theme-simple .sys_tabsfilter-control li.sys_selected {
+			}
+			
+			.sys_theme-simple .sys_tabsfilter-control li.sys_selected a {
+			颜色：＃000;
+			背景：#fff;
+			文字修饰：无;
+			border：3px solid #ccc;
+			border-bottom：0无;
+			保证金：-3px -3px 0 -3px;}
+			
+		.sys_theme-simple .sys_tabsfilter-control li.sys_date-range-on {
+		边框颜色：＃929292;}
+			
+
+/ *数据转发器上没有结果区* /
+.sys_theme-simple div.sys_noresults {
+	最小高度：1em的;
+	保证金：15px 0;
+	填充：12像素;
+	字体大小：1.3em;
+	border-top：1px solid＃b3b3b3;
+	border-bottom：1px solid＃b3b3b3;
+	背景：＃f7f7f7;}
+	
+/ *默认股票代码控制* /
+	.sys_theme-simple .sys_ticker {
+	最小高度：1.3em;
+	明确：两者;
+	填充：7px 0px;
+	保证金：-11px 0 1em 0;
+	border-top：1px solid #ecebeb;
+	border-bottom：1px solid #ecebeb;}
+	
+		.sys_theme-simple .sys_ticker span {
+		字体重量：粗体;
+		文本转换：大写;
+		字体大小：.9em;
+		保证金：0 4px 0 0;}
+		
+		.sys_theme-simple .sys_ticker a {
+		文字修饰：无;}
+
+/ * A到Z扩展控制* /
+.sys_theme-simple .sys_atoz-control {
+	宽度：100％;
+	保证金：0像素;
+	填充：0像素;
+	明确：两者;
+	background-image：none;
+}
+	
+	.sys_theme-simple .sys_atoz-control ul {
+	列表样式类型：无重要;！
+	利润率左：0像素重要;！
+	填充：0像素;
+	背景：无;
+	宽度：100％;
+	}
+
+
+	.sys_theme-simple .sys_atoz-control ul li {
+	向左飘浮;
+	边界：0无;
+	保证金：0像素;
+	填充：0像素;
+	}
+	.sys_theme-simple .sys_atoz-control ul li.sys_selected a {
+	background-color:#333C3E!important;
+	color:#FFFFFF!important;
+	}
+	.sys_theme-simple .sys_atoz-control ul li.sys_selected a:hover {
+	color:#FFFFFF!important;
+	}
+		
+		.sys_theme-simple .sys_atoz-control ul li a, 
+		.sys_theme-simple .sys_atoz-control ul li span {
+	float:left;
+	text-decoration: none!important;
+	color:#333C3E!important;
+	font-family: 'BureauGrotesqueThreeSeven', Arial, Helvetica, sans-serif;
+	font-size: 120%!important;
+	border: 1px solid #CCC;
+	display: block;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	background-color: #f7f7f7;
+	font-weight: normal!important;
+	text-align: center;
+	/* width: 19px; */
+		}
+	
+			.sys_theme-simple .sys_atoz-control ul li a:hover {
+	color: #006369!important;
+	text-decoration: none;
+			}
+	
+	.sys_theme-simple .sys_atoz-control ul li.sys_noresults {}
+	.sys_theme-simple .sys_atoz-control ul li.sys_noresults:hover {}
+	
+	.sys_theme-simple .sys_atoz-control ul li.sys_noresults span {
+	font-weight: bold;
+	color: #ccc!important;
+	cursor:default;}
+	
+	.sys_theme-simple .sys_atoz-control ul li.sys_selected {}
+	
+		.sys_theme-simple .sys_atoz-control ul li.sys_selected a,
+		.sys_theme-simple .sys_atoz-control ul li.sys_selected a:hover {
+		color: #fff;
+		background: #333; 
+		text-decoration: none;
+		
+		}
+	/*---*/
+	
+	/* A-Z Current Letter */
+	.sys_theme-simple div.sys_atoz-control-currentletter {
+	font-size:2.6em;
+	font-weight:bold;
+	clear:both;
+	color:#006369;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0px;
+	}
+		.sys_theme-simple div.sys_atoz-control-currentletter big {
+		display:block;
+		line-height:1em;}
+
+
+/* Flickr Style Pager Extension Control */
+	.sys_theme-simple .sys_flickrpager {
+	margin: 10px 0 10px 0;
+	padding: 10px 0;
+	min-height: 1.5em;
+	text-align:right;
+	clear:both;
+	width:auto;
+	background:none;
+	float:none;
+	border:0 none;
+	
+	}
+	.sys_theme-simple .sys_flickrpager .sys_paginginfo {
+	float: left;
+	font-weight: 400;
+	font-size: 12px;
+	width:auto;
+	background:none;
+	border:0 none;
+	margin:0;
+	padding:0;
+	}
+
+	.sys_theme-simple .sys_flickrpager .sys_navigation {
+	margin:0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: 400;
+	width:auto;
+	background:none;
+	float:none;
+	border:0 none;
+	}
+	.sys_theme-simple .sys_flickrpager .sys_navigation span.sys_selected span {
+	border: 1px solid #333;
+	padding: 2px 7px;
+	text-decoration: none; 
+	width:auto;
+	color:#fff;
+	background:#333;
+	float:none;
+	cursor:default;
+	font-weight:700;
+	}
+	.sys_theme-simple .sys_flickrpager .sys_navigation a {
+	padding: 2px 7px;
+	text-decoration: none;
+	width:auto;
+	background:none;
+	float:none;
+	border:0 none;
+	}
+		.sys_theme-simple .sys_flickrpager .sys_navigation span.sys_page {
+		margin-right:2px;
+		width:auto;
+		background:none;
+		float:none;
+		border:0 none;}
+		
+		.sys_theme-simple .sys_flickrpager .sys_navigation span.sys_page a {
+		border: 1px solid #e3e3e3;		
+		/*color: #484848;*/
+		width:auto;
+		background:none;
+		float:none;
+        
+		}
+		.sys_theme-simple .sys_flickrpager .sys_navigation span.sys_navigationnext a, .sys_theme-simple .sys_flickrpager .sys_navigation span.sys_navigationprevious a {
+		color: #00365b;
+		}
+			.sys_theme-simple .sys_flickrpager .sys_navigation span.sys_page a:hover {
+			background: #0086c2; 
+			border: 1px solid #0086c2;
+			color: #fff;
+			}
+			.sys_theme-simple .sys_flickrpager .sys_navigation span.sys_navigationnext a:hover, .sys_theme-simple .sys_flickrpager .sys_navigation span.sys_navigationprevious a:hover {
+			text-decoration: underline;
+			color: #0086c2;
+			}		
+	
+			.sys_theme-simple .sys_flickrpager .sys_navigation .sys_at-start, .sys_theme-simple .sys_flickrpager .sys_navigation .sys_at-end {
+			color: #bcbcbc;
+			}
+			.sys_theme-simple .sys_flickrpager .sys_navigation .sys_disabled {
+			padding: 2px 7px;
+			color: #ababab;
+			width:auto;
+			background:none;
+			float:none;
+			border:0 none;
+			cursor:default;
+			}
+			
+			.sys_theme-simple .sys_flickrpager .sys_navigation .sys_ellipsis {
+			cursor:default;
+			color:#ababab;
+			}
+
+
+/* Default Search Controls Styles*/
+		
+		/* Standard Rows */
+		.sys_theme-simple .sys_search-options .sys_search-row, .sys_theme-simple .sys_search-options .sys_basic-search-row {
+		min-height:1em;
+		clear:both;
+		margin:0 0 .8em 0;
+		position:relative;
+		}
+			/* Standard Labels for a search row */
+			.sys_theme-simple .sys_search-options label {
+			font-weight:700;
+			display:block;
+			/*color: #00539f;*/
+			}
+			
+			/* Text Labels for a search row */
+			.sys_theme-simple .sys_search-options .sys_search-row-label, .sys_theme-simple .sys_advanced-search-options .sys_search-row-label {
+			font-weight:700;
+			margin:0 0 .5em 0;
+			display:block;
+			/*color: #00539f;*/
+			}
+		
+		
+		/* Search Options*/
+		.sys_theme-simple .sys_search-options {
+		position:static;}
+		
+		/* Standard Button Row */
+		.sys_theme-simple .sys_search-options input.sys_button, 
+		.sys_theme-simple .sys_search-options .sys_button-row input.sys_button, 
+		.sys_theme-simple .sys_advanced-search-options .sys_button-row input.sys_button {
+		border:1px solid #acacac;
+		border-top-color:#e5e5e5;
+		border-left-color:#e5e5e5;
+		color:#333;
+		background-image:none;
+		background-color:#e5e5e5;
+		background-position:5px 50%;
+		background-repeat:no-repeat;
+		cursor:pointer;
+		padding:.2em 12px;
+		width:auto;
+		height:auto;
+		min-height:1.2em;
+		line-height:1.2em;
+		font-weight:700;
+		font-size:1em;
+		}
+
+		
+			/* Default Search Button */
+			.sys_theme-simple .sys_search-options .sys_button-row input.sys_searchbutton, 
+			.sys_theme-simple .sys_search-options .sys_button-row input.sys_search-button, 
+			.sys_theme-simple .sys_search-options .sys_basic-search-row input.sys_search-button, 
+			.sys_theme-simple .sys_advanced-search-options .sys_button-row input.sys_search-button,
+			.sys_theme-simple .sys_advanced-search-options .sys_button-row input.sys_searchbutton  {
+			background-image:url("imgs/search-icon.gif");
+			padding-left:22px;
+			}
+		
+		/* Standard Checkbox List/Radio Button Style Row and Checkbox/Radio Button Items */
+		.sys_theme-simple .sys_search-options .sys_checkbox-list, .sys_theme-simple .sys_search-options .sys_radiobutton-list {
+		font-size:1em;
+		padding-bottom:1px;
+		}
+			.sys_theme-simple .sys_search-options .sys_checkbox-list .sys_search-row-options, .sys_theme-simple .sys_search-options .sys_radiobutton-list .sys_search-row-options {
+			float:right;
+			width:90px;
+			height:16px;
+			margin:0;
+			padding:1px 5px;
+			color:#818181;
+			font-size:.85em;
+			}
+			
+			.sys_theme-simple .sys_search-options .sys_checkbox-list .sys_search-row-options a, .sys_theme-simple .sys_search-options .sys_radiobutton-list .sys_search-row-options a {
+			padding:.1em 0px;
+			color:#0063b7;
+			text-decoration:none;
+			}
+			
+			.sys_theme-simple .sys_search-options .sys_checkbox-list .sys_search-row-options a:hover , .sys_theme-simple .sys_search-options .sys_radiobutton-list .sys_search-row-options a:hover{
+			text-decoration:underline;
+			}
+			
+			.sys_theme-simple .sys_search-options .sys_checkbox-list .sys_checkbox, .sys_theme-simple .sys_search-options .sys_radiobutton-list .sys_radiobutton {
+			min-height:1.5em;
+			margin:0;
+			clear:both;
+			}
+			
+			/* Block Method of Alignment */
+			.sys_theme-simple .sys_search-options .sys_checkbox-list .sys_checkbox input, 
+			.sys_theme-simple .sys_search-options .sys_radiobutton-list .sys_radiobutton input {
+			display:block;
+			float:left;
+			margin:0 5px 0 0;
+			padding:0;
+			width:13px;
+			height:13px;
+			}
+			
+			.sys_theme-simple .sys_search-options .sys_checkbox-list .sys_checkbox label, .sys_theme-simple .sys_search-options .sys_radiobutton-list .sys_radiobutton label {
+			display:block;
+			float:left;
+			position: relative;
+			margin:0;
+			padding:0 0 .6em 0;
+			width:86%;
+			cursor: pointer;
+			cursor: hand;
+			font-size:1em;
+			line-height:1em;
+			}
+			
+	/* Forms */
+	.sys_theme-simple fieldset {
+	保证金：0 0 10px 0;
+	填充：10px 10px 20px 10px;
+	border：1px solid #ccc;
+	
+	}
+		.sys_theme-简单字段集图例{
+		字体重量：400;
+		字体大小：1.3em;
+		保证金：0 0 10px 0;}
+		
+		.sys_theme-simple fieldset .sys_form-set， 
+		.sys_theme-simple fieldset .sys_button-set， 
+		.sys_theme-simple fieldset p {
+		宽度：100％;
+		明确：两者;
+		填充：.5em 0;}
+		
+		.sys_theme-simple fieldset .sys_form-set：after {
+		内容：“。”; 
+		显示：块;
+		身高：0; 
+		明确：两者; 
+		可见性：隐藏;}
+		
+		.sys_theme-simple fieldset .sys_form-set {
+		}
+		.sys_theme-simple fieldset .sys_button-set {
+		宽度：70％;
+		填充左：30％;}
+		
+		.sys_theme-simple fieldset p {
+		字体大小：.9em;
+		颜色：＃666666;}
+		
+		.sys_theme-simple fieldset .sys_form-set label，
+		.sys_theme-simple fieldset .sys_form-set input，
+		.sys_theme-simple fieldset .sys_form-set textarea，
+		.sys_theme-simple fieldset .sys_form-set select {
+		margin:0 5px 0 0;}
+		
+		.sys_theme-simple fieldset .sys_form-set label {
+		float:left;
+		width:20%;
+		background:none;
+		padding-left:1%;
+		padding-right:8%;
+		font-weight:700;
+		color:#666666;
+		}
+		
+		.sys_theme-simple fieldset .sys_form-set input {
+		float:left;
+		width:280px;
+		}
+
+		.sys_theme-simple fieldset.sys_personalinterests .sys_form-set .sys_checkboxlist-label {
+		display: none;
+		}
+
+		.sys_theme-simple fieldset .sys_form-set .sys_checkboxlist input {
+		float:left;
+		width:auto;
+		}
+		
+		.sys_theme-simple fieldset .sys_form-set textarea {
+		float:left;
+		width:280px;
+		}
+		
+		.sys_theme-simple fieldset .sys_form-set select {
+		float:left;
+		width:286px;
+		}
+		
+		.sys_theme-simple fieldset .sys_form-set.sys_dob select {
+		width:92px;
+		}
+		
+		
+		.sys_theme-simple fieldset .sys_form-set.sys_checkbox input {
+		width:auto;}
+		
+		.sys_theme-simple fieldset .sys_form-set.sys_googleverify {
+		}
+		
+		.sys_theme-simple fieldset .sys_form-set.sys_googleverify input {
+		width:auto;
+		margin-top:.5em;
+		margin-left:6%;
+		margin-right:16%;
+		border:2px solid #ccc;
+		background:#fff;
+		padding:5px;
+		font-weight:700;
+		color:#0066CC;}
+		
+		.sys_theme-simple fieldset .sys_form-set.sys_googleverify .sys_verificationmessage {
+		font-weight:700;
+		color:#CC0000;
+		margin:0 0 0 5%;
+		padding:.8em 10px 1.2em 10px;
+		background:url("Imgs/GoogleVerifyBg1.png") 0 0 repeat;}
+
+			.sys_theme-simple fieldset .sys_form-set.sys_googleverify .sys_verificationmessage.sys_verfied,
+			.sys_theme-simple fieldset .sys_form-set.sys_googleverify .sys_verificationmessage.sys_verified {
+			color:#009900;
+			background:url("Imgs/GoogleVerifyBg2.png") 0 0 repeat;}
+		
+		.sys_theme-simple fieldset .sys_avatar-image-group .sys_spanlabel {
+		float:left;
+		width:20%;
+		background:none;
+		padding-left:5%;
+		padding-right:5%;}
+		
+			.sys_theme-simple fieldset .sys_avatar-image-group .sys_avatar-image-holder {
+			float:left;
+			background:#f7f7f7;
+			border:1px solid #ccc;
+			margin:5px;
+			padding:5px;}
+				.sys_theme-simple fieldset .sys_avatar-image-group .sys_avatar-image-holder input {
+				width:auto;
+				margin:0;
+				padding:0;}
+				.sys_theme-simple fieldset .sys_avatar-image-group .sys_avatar-image-holder label {
+				width:auto;
+				font-size:.9em;
+				margin:0;
+				padding:0;}
+		
+		.sys_theme-simple .sys_validationsummary {
+		color:#660000;
+		background:#ffcccc;
+		margin:0 0 10px 0;
+		padding:10px 20px;
+		border:3px dotted #ff6666;
+		font-size:1em;
+		}
+			.sys_theme-simple .sys_validationsummary h2 {
+			font-size:1.2em;
+			color:#cc3333;
+			background:none;
+			margin:0; padding:0;
+			font-weight:400;
+			}
+			
+			.sys_theme-simple .sys_validationsummary ul {
+			margin:0;
+			padding:10px 35px;
+			list-style-type:disc;
+			}
+			.sys_theme-simple .sys_validationsummary ul li {
+			余量：0;
+			填充：0;
+			背景：无;
+			列表样式类型：圈;}
+
+/ * ---记录结构--- * /
+	.sys_theme-simple .sys_record-control {
+	}
+	
+	.sys_theme-simple .sys_record-control dl {
+	位置：相对;
+	显示：块;
+	余量：0;
+	填充：0;
+	宽度：100％;}
+	
+	.sys_theme-simple .sys_record-control dl dt {
+	向左飘浮;
+	颜色：＃666;
+	字体重量：700;
+	字体大小：1em的;
+	显示：块;
+	余量：0;
+	填充：.5em 0;
+	border-top：1px solid #ebebeb;
+	最小高度：1.8em;
+	宽度：29.9％;}
+	
+	.sys_theme-simple .sys_record-control dl dd {
+	向左飘浮;
+	显示：块;
+	余量：0;
+	填充：.5em 0;
+	border-top：1px solid #ebebeb;
+	最小高度：1.8em;
+	宽度：70％;}
+	
+	.sys_theme-simple .sys_record-control dl dd：after {
+	内容：“。”; 
+	显示：块;
+	身高：0; 
+	明确：两者; 
+	可见性：隐藏;}
+	
+	.sys_theme-simple .sys_record-control h2，
+	.sys_theme-simple .sys_record-control h3，
+	.sys_theme-simple .sys_record-control h4，
+	.sys_theme-simple .sys_record-control h5，
+	.sys_theme-simple .sys_record-control h6 {
+	字体大小：1.3em;
+	字体重量：400;
+	背景：无;
+	边界：0无;
+	保证金：5px 0 10px 0;
+	填充：0;}
+	
+	.sys_theme-simple .sys_record-control h3，
+	.sys_theme-simple .sys_record-control h4，
+	.sys_theme-simple .sys_record-control h5，
+	.sys_theme-simple .sys_record-control h6 {
+	字体大小：1.1em;
+	字体重量：700;
+	颜色：＃666666;}
+	
+	.sys_theme-simple .sys_record-control ul {
+	保证金：0 0 15px 0;
+	填充：0 0 0 45px;}
+	.sys_theme-simple .sys_record-control dd ul {
+	向左飘浮;
+	宽度：250像素;
+	填充：0 0 0 20px;}
+
+		.sys_theme-simple .sys_record-control ul li {
+		保证金：汽车;
+		填充：.3em 0 .3em 0;
+		边界：0无;
+		列表样式类型：平方米;
+		背景：无;
+		border：0 none;}
+	
+	/ *记录结构* /
+		/ *记录标题* /
+		.sys_theme-simple .sys_record-control .sys_record-header {
+		明确：既;}
+			.sys_theme-simple .sys_record-control .sys_record-header .sys_record-title {
+			margin:0;}
+		
+		/* Record Body */
+		.sys_theme-simple .sys_record-control .sys_record-body {
+		clear:both;
+		}
+		
+			/* Record Columns */
+			.sys_theme-simple .sys_record-control .sys_record-col {
+			float:left;}
+			
+			.sys_theme-simple .sys_record-control .sys_record-col1 {
+			float:left;
+			width:72%;}
+			
+			.sys_theme-simple .sys_record-control .sys_record-col2 {
+			float:right;
+			width:27%;}
+				
+				/* Record Groups */
+				.sys_theme-simple .sys_record-control .sys_record-group {
+				margin:0 0 8px 0;
+				padding:0;}
+					.sys_theme-simple .sys_record-control .sys_record-group .sys_record-subhdr {
+					font-weight:400;
+					margin:0 0 .5em 0;
+					font-size:1.3em;
+					padding:.5em 0 .3em 0;
+					}
+					
+				.sys_theme-simple .sys_record-control .sys_record-col2 .sys_record-group {
+				}
+					.sys_theme-simple .sys_record-control .sys_record-col2 .sys_record-group .sys_record-subhdr {
+					margin:0;
+					padding:.5em 8px .3em 8px;
+					}
+					
+					/* Record Yes and No ticks and crosses */
+					.sys_theme-simple .sys_record-control ul.sys_record-info-items li.sys_yes span {
+		            font-weight:700;
+					color:#006600;}
+		
+	                .sys_theme-simple .sys_record-control ul.sys_record-info-items li.sys_no span {
+					font-weight:700;
+					color:#CC0000;
+	                }
+					
+					.sys_theme-simple .sys_record-control table p {margin:0;padding:0;}
+		
+		/* Record Footer */
+		.sys_theme-simple .sys_record-control .sys_record-footer {
+		clear:both;}
+	
+	/* Record - Default Formatting of record content */
+		
+		/* Record Image */
+		.sys_theme-simple .sys_record-control .sys_record-image {
+		margin:0 0 12px 0;
+		padding:20px 10px;
+		text-align:center;
+		overflow:hidden;
+		background:#f7f7f7;
+		/*background:url("imgs/RecordImageBg.gif") 0 100% repeat-x;*/
+		border:1px solid #bababa;
+		}
+			.sys_theme-simple .sys_record-control .sys_record-image img {
+			display:block;
+			margin:0 auto;
+			}
+			
+		/* Record Image Control */
+		.sys_theme-simple .sys_record-control .sys_record-image-control {
+		float:right;
+		padding:0 0 20px 20px;
+		position:relative;
+		z-index:1;
+		}
+			.sys_theme-simple .sys_record-control .sys_record-image-control img {
+			display:block;
+			border:3px solid #ccc;
+			margin-bottom:5px;
+			}
+		
+		.sys_theme-simple .sys_record-control .sys_record-image-control-caption {
+		width:200px;
+		font-size:.9em;
+		color:#666;
+		white-space:normal;
+		word-spacing:normal;
+		margin:0;
+		padding:0;
+		}
+
+		
+		/* Bullet lists */
+		.sys_theme-simple .sys_record-control ul.sys_record-info-items {
+		margin:0 0 1em 0;
+		padding:0;
+		font-size:100%;}
+		
+			.sys_theme-simple .sys_record-control ul.sys_record-info-items li {
+			display:block;
+
+
+			border-bottom:1px solid #e3e3e3;
+			list-style-type:none;
+			padding:.3em 10px;
+			}
+			.sys_theme-simple .sys_record-control .sys_record-col1 ul.sys_record-info-items li {
+			padding:.5em 0;
+			}
+			
+				.sys_theme-simple .sys_record-control .sys_record-col1 ul.sys_record-info-items li {
+				}
+				
+					.sys_theme-simple .sys_record-control .sys_record-col1 ul.sys_record-info-items li p {
+					font-weight:400;
+					margin:.2em 0 .7em 0;}
+				
+			.sys_theme-simple .sys_record-control ul.sys_record-info-items li.sys_last {
+			border-bottom: 0 none;}
+			
+				.sys_theme-simple .sys_record-control ul.sys_record-info-items li strong.sys_rclabel {
+				font-weight:700;
+				margin:0 5px 0 0;
+				}
+				
+		/* Groups in Column 1 */
+		.sys_theme-simple .sys_record-control .sys_record-col1 .sys_record-group {
+		font-size:1em;
+		}
+		
+			.sys_theme-simple .sys_record-control .sys_record-col1 .sys_record-group .sys_record-subhdr {
+			font-size:1.2em;
+			}
+		
+		.sys_theme-simple .sys_record-control .sys_record-col1 .sys_record-group ul, .sys_theme-simple .sys_record .sys_record-col1 .sys_record-group li {
+		font-size:100%;
+		padding:.5em 0;
+		}
+		
+		/* Story Group */
+		.sys_theme-simple .sys_record-control .sys_record-col1 .sys_record-story ul {
+		margin-left:32px;}
+		
+	/* Groups in Column 2*/
+	.sys_theme-simple .sys_record-control .sys_record-col2 .sys_record-group ul.sys_record-info-items li strong.sys_rclabel {
+	width:100px;
+	display:inline-block;
+	}
+		
+	/* --- End Record Control --- */
+	
+		
+	/* Clearing DIV */
+	.sys_theme-simple .sys_clear {
+	clear:both;
+	height:0;
+	line-height:0;
+	overflow:hidden;
+	width:100%;
+	}
+	
+	
+	/* Generic Lists */
+	.sys_theme-simple .sys_itemslist div.sys_0 {
+			background-image:url("../../Common/imgs/contenttypes/large/0.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_1 {
+			background-image:url("../../Common/imgs/contenttypes/large/1.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_2 {
+			background-image:url("../../Common/imgs/contenttypes/large/2.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_3 {
+			background-image:url("../../Common/imgs/contenttypes/large/3.gif");}
+			
+			.sys_theme-simple .sys_itemslist div.sys_5 {
+			background-image:url("../../Common/imgs/contenttypes/large/5.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_6 {
+			background-image:url("../../Common/imgs/contenttypes/large/6.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_7 {
+			background-image:url("../../Common/imgs/contenttypes/large/7.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_8 {
+			background-image:url("../../Common/imgs/contenttypes/large/8.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_9 {
+			background-image:url("../../Common/imgs/contenttypes/large/9.gif");}
+			
+			.sys_theme-simple .sys_itemslist div.sys_11 {
+			background-image:url("../../Common/imgs/contenttypes/large/11.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_12 {
+			background-image:url("../../Common/imgs/contenttypes/large/12.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_13 {
+			background-image:url("../../Common/imgs/contenttypes/large/13.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_14 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 14.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_15 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 15.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_16 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 16.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_17 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 17.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_18 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 18.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_19 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 19.gif”）;}
+			
+			.sys_theme-simple .sys_itemslist div.sys_21 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 21.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_22 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 22.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_23 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 23.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_24 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 24.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_25 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 25.gif”）;}
+			
+			.sys_theme-simple .sys_itemslist div.sys_27 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 27.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_28 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 28.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_29 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 29.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_30 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 30.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_31 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 31.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_32 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 32.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_33 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 33.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_34 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 34.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_35 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 35.gif”）;}
+			
+			.sys_theme-simple .sys_itemslist div.sys_37 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 37.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_38 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 38.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_39 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 39.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_40 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 40.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_41 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 41.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_42 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 42.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_43 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 43.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_44 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 44.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_45 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 45.gif”）;}
+			.sys_theme-simple .sys_itemslist div.sys_46 {
+			背景图像：URL（ “../../普通/ IMGS / CONTENTTYPES /大/ 46.gif”）;}
+	
+			.sys_theme-simple .sys_itemslist div.sys_50 {
+			background-image:url("../../Common/imgs/contenttypes/large/50.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_51 {
+			background-image:url("../../Common/imgs/contenttypes/large/51.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_52 {
+			background-image:url("../../Common/imgs/contenttypes/large/52.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_53 {
+			background-image:url("../../Common/imgs/contenttypes/large/53.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_54 {
+			background-image:url("../../Common/imgs/contenttypes/large/54.gif");}
+			.sys_theme-simple .sys_itemslist div.sys_55 {
+			background-image:url("../../Common/imgs/contenttypes/large/55.gif");}
+	
+	
+	/* Whats New Control */
+	.sys_theme-simple .sys_whats_new-control {}
+		.sys_theme-simple .sys_whats_new-control .sys_datarepeatercontrol dt.sys_whats_new-type {
+		width:40px;}
+		
+		.sys_theme-simple .sys_whats_new-control .sys_datarepeatercontrol dt.sys_whats_new-description {display:none;}
+		.sys_theme-simple .sys_whats_new-control .sys_datarepeatercontrol dd.sys_whats_new-type,
+		.sys_theme-simple .sys_whats_new-control .sys_datarepeatercontrol dt.sys_whats_new-releasedate {
+		float:left;
+		margin-right:15px;}
+		
+		
+	
+	/* Opinion Poll */
+	.sys_theme-simple .sys_pollwrapper {
+	color:#2b3341;
+	position:relative;
+
+border: 1px dotted #c9c3c3;
+	margin:0 0 10px 0;}
+		.sys_theme-simple .sys_pollwrapper .sys_pollquestionwrapper {
+		background:#efefef;
+		border:1px solid #ccc;
+		border-bottom:0 none;
+		border-top-color:#e8e8e8;
+		border-left-color:#e8e8e8;
+		padding:5px 10px;}
+        
+			.sys_theme-simple .sys_pollwrapper .sys_pollquestionwrapper .sys_pollq {
+			font-weight:700;
+			color:#999999;
+			margin-right:5px;}
+		
+		.sys_theme-simple .sys_pollwrapper .sys_polloptionswrapper {
+		height:1%;
+		margin:0 0 -1px 0;
+		padding:2px 10px;
+		border:1px solid #ebebeb;
+		border-right-color:#ccc;
+		border-bottom:0 none;
+		background:none!important;
+        }
+		
+			.sys_theme-simple .sys_pollwrapper .sys_pollvoteoptions {
+			width:100%;
+			height:18px;
+			clear:both;
+			margin:4px 0 0 0;}
+			
+			.sys_theme-simple .sys_pollwrapper .sys_pollvoteoptions label,
+			.sys_theme-simple .sys_pollwrapper .sys_pollvoteoptions input {
+			cursor:pointer;
+			}
+			
+			.sys_theme-simple .sys_pollwrapper .sys_pollvoteoptions input {
+			display:block;
+			clear:left;
+			float:left;
+			margin:0 5px 0 0;
+			padding:0;
+			width:13px;
+			height:13px;
+			overflow:hidden;}
+			
+			.sys_theme-simple .sys_pollwrapper .sys_pollvoteoptions label {
+			display:block;
+			float:left;
+			position: relative;
+			margin:2px 0 0 0;
+			padding:0 0 .6em 0;
+			cursor: pointer;
+			cursor: hand;
+			font-size:1em;
+			line-height:1em;
+			}
+				
+			
+
+		
+		.sys_theme-simple .sys_pollwrapper .sys_pollbottom {
+		padding:5px 10px;
+		height:32px;}
+			.sys_theme-simple .sys_pollwrapper .sys_pollbottom a {
+			float:left;
+			display:block;
+			font-size:1.0em;
+			font-weight:700;
+			padding:0 0 0 20px;
+            text-decoration: none!important;
+            background: none!important;
+			/*background:url("Imgs/FaqsLinkBg.png") 0 50% no-repeat;*/
+			}
+		
+	/*		.sys_theme-simple .sys_pollwrapper .sys_pollbottom .sys_pollsubmitbutton {
+			float:right;
+			cursor:pointer;
+			display:block;
+			width:73px;
+			height:22px;
+			border:1px solid #acacac;
+			border-top-color:#e5e5e5;
+			border-left-color:#e5e5e5;
+			color:#333;
+			padding:.2em 12px;
+			width:auto;
+			height:auto;
+			min-height:1.2em;
+			line-height:1.2em;
+			font-weight:700;
+			font-size:1em;
+			}
+    */        
+   .sys_theme-simple .sys_pollwrapper .sys_pollbottom .sys_pollsubmitbutton {         
+            background-color:#231F20;
+            border:1px solid #231F20;
+              color:#FFFFFF;
+              cursor:pointer;
+              float:right;
+              font-family:Georgia, 'Times New Roman', Times, serif;
+              font-size:11px;
+              font-weight:bold;
+              margin:0;
+              padding:6px 0 5px;
+              width:25px;
+              color: white!important;
+   }
+			.sys_theme-simple .sys_pollwrapper .sys_pollvoteresults {
+			font-size:.9em;
+			padding:3px 0 0 15px;
+			height:32px;
+			border:1px solid #c9c3c3!important;
+			border-right-color:#ccc;
+			border-top:0 none;
+			font-weight:700;
+			color:#000!important;
+			}
+				.sys_theme-simple .sys_pollwrapper .sys_pollvoteresults span {
+				margin-left:2px;
+				}
+	
+    
+    /*
+        	.sys_theme-simple .sys_pollwrapper .sys_pollbar {
+			margin:-2px 0 5px -8px;
+			line-height:3px;
+			height:5px;
+			background:#a6ffa6 url("Imgs/PollBarBg.jpg") 0 0 repeat-y;
+			border:5px solid #a6ffa6;
+			border-left-color:#e00000;
+			border-top-color:green!important
+			border-bottom-color:#fff;
+			border-right-color:#fff;}
+    */
+    
+    
+			.sys_theme-simple .sys_pollwrapper .sys_pollbar {
+			margin:-2px 0 5px -8px;
+			line-height:3px;
+			height:5px!important;
+			background:red url("Imgs/PollBarBg.jpg") 0 0 repeat-y!important;
+            /*background:#a6ffa6 url("Imgs/PollBarBg.jpg") 0 0 repeat-y;*/
+			border:1px solid black!important;
+			border-left-color:#e00000;
+			border-top-color:#E5E2DD!important;
+			border-bottom-color:#E5E2DD!important;
+			border-right-color:#E5E2DD!important;}
+
+	/* Logon Control */
+	.sys_theme-simple .sys_logon-control {
+	height:1%;
+	padding:10px;}
+		.sys_theme-simple .sys_logon-control label {
+		clear:left;
+		float:left;
+		width:15%;
+		margin:0 0 5px 0;}
+		.sys_theme-simple .sys_logon-control input.sys_textbox {
+		float:left;
+		width:40%;
+		margin:0 40% 5px 0;}
+		
+		.sys_theme-simple .sys_logon-control input.sys_button {
+		float:left;
+		margin:0 0 0 15%;}
+		
+		.sys_theme-simple .sys_logon-control .sys_savepasswordpanel {
+		height:22px;
+		padding-left:10px;
+		float:left;
+		}
+			.sys_theme-simple .sys_logon-control .sys_savepasswordpanel label {
+			clear:none;
+			cursor:pointer;
+			float:left;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+			color:#666;
+			font-weight:400;
+			width:auto;}
+			.sys_theme-simple .sys_logon-control .sys_savepasswordpanel input {
+			float:left;
+			margin:3px 3px 0 0;
+			padding:0;
+			height:13px;
+			width:13px;
+			overflow:hidden;
+			}
+			
+		.sys_theme-simple .sys_logon-control .sys_loginerror {
+		clear:both;
+		margin:10px 0 0 15%;
+		padding:0 0 0 12px;
+		font-size:.9em;
+		color:#CC0000;
+		background:url("Imgs/Exclamaition.gif") 0 50% no-repeat;
+		height:1em;
+		line-height:1em;}
+
+
+	.sys_theme-simple .sys_forgotpassword-control label {
+	float:left;
+	font-weight:700;
+	margin:0 10px 0 0;
+	padding:.4em 0 0 0;}
+	
+	.sys_theme-simple .sys_forgotpassword-control input.sys_textbox {
+	float:left;
+	width:180px;
+	font-weight:700;
+	margin:0 5px 0 0;}
+	
+	.sys_theme-simple .sys_forgotpassword-control input.sys_button {
+	float:left;
+	width:130px;
+	font-weight:700;
+	margin:0;}
+
+
+/* Commenting Screen */
+
+	.sys_theme-simple .sys_comments-control {
+	width:100%;
+	clear:both;}
+	
+		.sys_theme-simple .sys_comments-control .sys_comments-title {
+		font-size:1.3em;
+		font-weight:400;
+		margin:0 0 10px 0;}
+		
+		.sys_theme-simple .sys_comments-control .sys_comments-signin-text {
+		font-size:1.4em;
+		color:#666;}
+
+	
+		.sys_theme-simple .sys_comments-control ul {
+		margin:0 0 20px 0;
+		padding:0;
+		list-style-type:none;}
+		
+			.sys_theme-simple .sys_comments-control ul li.sys_comment {
+			clear:both;
+			font-size:1.2em;
+			color:#47472e;
+			background: url("Imgs/Comments/CommentBg1.gif") 0 0 no-repeat;
+			margin:0 0 5px 0;
+			padding:0 0 0 75px;
+			position:relative;
+			border:0 none;}
+			
+			.sys_theme-simple .sys_comments-control ul li, .sys_theme-simple .sys_comments-control ul li.sys_comment-declined {
+			color:#a1a18c;}
+			
+				.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comment-inner {
+				width:100%;
+				padding:3px 0 0 0;
+				background:#ffffcc url("Imgs/Comments/CommentBg3.gif") 0 0 repeat-x;
+				}
+					.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comment-inner:after {
+					content: "."; 
+					display: block;
+					height: 0; 
+					clear: both; 
+					visibility: hidden;}
+				.sys_theme-simple .sys_comments-control ul li.sys_comment a {
+				color:#0066CC;
+				text-decoration:underline;}
+				
+				.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comment-userprofile {
+				position:absolute;
+				top:7px;
+				left:5px;
+				width:50px;
+				}
+					.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comment-userprofile .sys_comment-profileimage {
+					text-align:center;}
+						.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comment-userprofile .sys_comment-profileimage img {
+						margin:0 auto;}
+					
+					.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comment-userprofile .sys_comment-commenttype {
+					display:none;
+					position:absolute;
+					top:-5px;
+					right:-7px;
+					width:50px;
+					height:18px;
+					overflow:hidden;
+					text-indent:999px;}
+					
+					.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comment-userprofile .sys_comment-commenttype.sys_type-external {
+					background:url("Imgs/Comments/OriginWebsiteUser.png") 0 0 no-repeat;}
+					
+					.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comment-userprofile .sys_comment-commenttype.sys_type-editorial {
+					background:url("Imgs/Comments/OriginCMSUser.png") 0 0 no-repeat;}
+				
+				.sys_theme-simple .sys_comments-control ul li.sys_comment span.sys_comment-number {
+				color:#797953;
+				font-size:.7em;
+				display:block;
+				float:left;
+				padding:0 0 0 13px;}
+
+				
+				.sys_theme-simple .sys_comments-control ul li.sys_comment cite {
+				display:block;
+				color:#797953;
+				font-size:.7em;
+				margin:0 0 5px 0;
+				padding:0;
+				font-style:normal;}
+					.sys_theme-simple .sys_comments-control ul li.sys_comment cite a {color:#797953;}
+				
+				.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comment-status {
+				color:#c01a0f;
+				font-size:.7em;
+				font-weight:400;
+				margin:.5em 0 0 0;
+				padding:0 0 0 12px;
+				line-height:1em;
+				background:url("Imgs/Comments/Icon_StatusAlert.gif") 3px 0 no-repeat;}
+				
+				.sys_theme-simple .sys_comments-control ul li.sys_comment-awaitingapproval .sys_comment-status {
+				color:#336699;
+				background:url("Imgs/Comments/Icon_StatusAlert2.gif") 3px 0 no-repeat;}
+			
+				.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comments-text {
+				margin:.4em 0 0 0;
+				padding:0 15px 25px 15px;
+				background:url("Imgs/Comments/CommentBg2.gif") 100% 100% repeat-x;}
+					.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_comments-text p {
+					margin:0;
+					padding:0;}
+				
+				.sys_theme-simple .sys_comments-control ul li.sys_comment cite span {
+				color:#585838;
+				font-weight:700;}
+				
+				.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_toolbar {
+				position:absolute;
+				top:5px;
+				right:5px;
+				width:110px;
+				font-size:.8em;}
+				
+					.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_toolbar .sys_toolbutton {
+					float:left;
+					width:23px;
+					height:22px;
+					cursor:pointer;}
+						
+						.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_toolbar .sys_toolbutton a {
+						display:block;
+						width:20px;
+						height:20px;
+						overflow:hidden;
+						text-indent:9999px;
+						border:1px solid #f5de9e;
+						margin:0;
+						padding:0;}
+					
+						.sys_theme-simple .sys_comments-control ul li.sys_comment .sys_toolbar .sys_toolbutton a:hover {
+						border-top-color:#eeee67;
+						border-right-color:#acac46;
+						border-bottom-color:#6a6a3a;
+						background-color:#ffffa0;}
+						
+
+					
+			.sys_theme-simple .sys_comments-control .sys_add-your-comment {
+			color:#333;
+			font-size:90%;
+			margin:0 0 10px 0;
+			padding:0;
+			line-height:1em;
+			border:0 none;}
+				.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_addcomments-title {
+				font-weight:700;
+				font-size:1.3em;
+				text-transform:capitalize;
+				border:0 none;}
+				.sys_theme-simple .sys_comments-control .sys_add-your-comment label {
+				font-weight:700;
+				display:block;
+				padding:.8em 0;}
+				
+				.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_addcomments-row {
+				clear:both;
+				width:100%;
+				}
+				
+					.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_addcomments-row input {
+					width:100%}
+					.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_addcomments-row textarea {
+					width:100%;
+					font-size:1.3em;}
+					
+				.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_comments-rating-and-button {
+				height:1%;
+				padding:10px 20px 10px 0;
+				}
+				
+					.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_comments-rating-and-button input.sys_button {
+					background:url("Imgs/Comments/Btn_AddComment.gif") 0 0 no-repeat;
+					border:0 none;
+					width:128px;
+					padding:4px 10px;
+					margin:0;
+					cursor:pointer;}
+					
+					.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_addcomments-validationtext {
+					color:#fff;
+					background:#ca2e1e;
+					margin:1em 0 15px 0;
+					padding:12px;}
+					.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_addcomments-validationtext.sys_addcomments-successful {
+					background:#47a42d;}
+					
+						.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_addcomments-validationtext h2 {
+						color:#fff;
+						font-size:1.2em;
+						margin:0 0 10px 0;
+						padding:0;
+						font-weight:700;}
+						
+						.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_addcomments-validationtext ul {
+						margin:0;
+						padding:0 0 0 25px;}
+						
+						.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_addcomments-validationtext ul li {
+						font-size:1.1em;
+						color:#fff;
+						list-style-type:none;
+						font-weight:700;
+						border:0 none;
+						margin:0;
+						padding:.3em 0 .3em 20px;
+						background:url("Imgs/ValidationBullet.png") 0 50% no-repeat;}
+						.sys_theme-simple .sys_comments-control .sys_add-your-comment .sys_addcomments-validationtext.sys_addcomments-successful ul li {
+						background:url("Imgs/ValidationBullet2.png") 0 50% no-repeat;}
+
+
+
+
+	
+	/* --- */
+		
+		
+	/*---- Moderation and Approval Steps ----*/
+	/* Comment Status */
+			.sys_theme-simple div.sys_comments-control ul li.sys_comment-approved div.sys_comment-status, .sys_theme-simple div.sys_comments-control ul li.sys_comment-awaitingapproval div.sys_comment-status, .sys_theme-simple div.sys_comments-control ul li.sys_comment-declined div.sys_comment-status {
+			height:15px;
+			margin:10px 0 ;
+			padding:0;
+			text-align:left;
+			font-size:1em;
+			}
+				.sys_theme-simple div.sys_comments-control ul li.sys_comment-approved div.sys_comment-status {
+				color:#3fac1e;
+				}
+				
+				.sys_theme-simple div.sys_comments-control ul li.sys_comment-awaitingapproval div.sys_comment-status {
+				color:#c67e31;
+				}
+				
+				.sys_theme-simple div.sys_comments-control ul li.sys_comment-declined div.sys_comment-status {
+				color:#b60000;
+				}
+				
+				.sys_theme-simple div.sys_comments-control ul li.sys_comment-awaitingapproval div.sys_comments-text, .sys_theme-simple div.sys_comments-control ul li.sys_comment-declined div.sys_comments-text {
+				color:#777;
+				font-style:italic;}
+				
+				.sys_theme-simple div.sys_comments-control ul li.sys_comment-awaitingapproval cite, .sys_theme-simple div.sys_comments-control ul li.sys_comment-declined cite {color:#777;}
+			
+			
+			/* Moderator Edit Mode - Textarea */
+			.sys_theme-simple div.sys_comments-control ul li textarea.sys_edit-user-comments {
+			width:98%;}
+		
+
+/* The Media Gallery Control */
+			
+	.sys_theme-simple .sys_mediagallery-control {
+	margin:0;
+	padding:0;
+	background:#E5E2DD!important;
+	}
+	
+	.sys_theme-simple .sys_mediagallery-control h1.sys_mediagallery-title,
+	.sys_theme-simple .sys_mediagallery-control h2.sys_mediagallery-title,
+	.sys_theme-simple .sys_mediagallery-control h3.sys_mediagallery-title {
+	position:relative;
+	margin:1em 0;
+	padding:.2em 0;
+	}
+	
+	.sys_theme-simple .sys_mediagallery-control .sys_datarepeatercontrol {
+	margin:0;
+	padding:0;}
+	
+	.sys_theme-simple .sys_mediagallery-control .sys_datarepeatercontrol .sys_itemslist {
+	float:left;
+	margin:0;
+	padding:0;
+    background:#E5E2DD!important;}
+	
+		.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem {
+		float:left;
+		clear:none;
+		width:120px;
+		height:150px;
+		margin:0 10px 10px 0;
+		padding:0;
+		position:relative;
+		background:#E5E2DD!important;
+		border:1px solid black!important;
+		z-index:1;}
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem * {
+			position:static;}
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem .sys_thumbnail {
+			margin:10px;
+			padding:0;
+			float:none;
+			border:0 none;
+			width:100%;
+			height:50px;
+			min-height:auto;
+			background:none;
+			display:block;
+			}
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem .sys_icon {
+			margin:0;
+			padding:0;
+			float:none;
+			border:0 none;
+			width:100%;
+			height:72px;
+			min-height:auto;
+			display:block;
+			background-position:50% 50%;
+			}
+			
+				.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem .sys_thumbnail a {
+				display:block;
+				/*position:absolute;
+				width:100%;
+				height:100%;
+				z-index:1;*/}
+					.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem .sys_thumbnail a:hover {text-decoration:underline;}
+				
+				.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem .sys_thumbnail img {
+				/*position:absolute;
+				top:60px;
+				left:10px;
+				z-index:2;*/}
+				
+				
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem .sys_subitem-heading {
+			font-size:1em;
+			line-height:1.2em;
+			margin:0;
+			padding:0;
+			
+			background:none;}
+				.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem .sys_subitem-heading a {
+				margin:2px 0px 0px 2px!important;
+				padding:0;
+				position:static;
+				font-weight:400;
+				color:#333;
+                width: 100px!important;
+                min-height: 50px!important;
+                color: black!important;
+				text-decoration: none!important;
+				}
+					.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem .sys_subitem-heading a:hover {
+					color:#333;
+					text-decoration:underline!important;}
+			
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem .sys_subitem-summary {
+			font-size:.9em;
+			background:none;
+			padding:0;
+			margin:5px 0 0 0;
+			border:0 none;
+			position:static;}
+			
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem dl,
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem dl dt, 
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem dl dd {
+			margin:0;
+			padding:0;
+			display:block;}
+			
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem dl dt.sys_mediagallery-description {
+			display:none;}
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem dl dd.sys_mediagallery-description {
+			display:none;
+			position:absolute;
+			width:100px;
+			left:-60px;
+			bottom:20px;
+			color:#000;
+			background:#ffffcc;
+			padding:4px;
+			border:1px solid #ffcc66;
+			line-height:1em;
+			z-index:2;}
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem:hover dl dd.sys_mediagallery-description {
+			display:block;
+			position:absolute;
+			z-index:2;}
+			
+
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem dl dt.sys_mediagallery-uploaded, .sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem dl dd.sys_mediagallery-uploaded {
+			display:none;}
+		
+        /*.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem dl dd.sys_mediagallery-uploaded {
+			position:absolute;
+			color:#666666;
+			left:8px;
+			bottom:4px;
+			z-index:-1;}*/
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem dl dt.sys_mediagallery-length {
+			display:none;}
+			.sys_theme-simple .sys_mediagallery-control .sys_itemslist .sys_subitem dl dd.sys_mediagallery-length {
+			position:absolute;
+			color:#666666;
+			left:8px;
+			bottom:18px;
+			}
+.sys_lightbox-title
+{
+    font-size: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sys_lightbox-download a, .sys_mediagallery-uploaded
+{
+  
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}	
+			
+/* Flickr Style Pager Extension Control */
+.sys_theme-simple .sys_mediagallery-control .sys_flickrpager {
+	margin: 10px 0 10px 0;
+	padding: 10px 0;
+	height: 30px;
+	text-align:right;
+	clear:both;
+	border:0 none;
+    background-color: #E5E2DD!important;
+	}
+	.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_paginginfo {
+	float: left;
+	color:#666;
+	font-weight: bold;
+	font-size: 1em;
+	padding:5px 0;
+	}
+
+	.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation {
+	float:right;
+	padding: 0;
+	font-size: 12px;
+	font-weight: 700;
+	}
+	
+	.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation a {
+	padding: 2px 7px;
+	text-decoration: none;
+	}
+		.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_page {
+		float:left;
+		width:21px;
+		margin-right:2px;
+		background:#fff url("Imgs/MediaGallery/PagerItemOff.png") 0 0 no-repeat;
+		text-align:center;
+		border:0 none;}
+		
+		.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_page span,
+		.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_page a {
+		display:block;
+		color:#666666;
+		padding: 18px 0 0 0;
+		border:0 none;
+		}
+		
+		.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_selected {
+		}
+		
+			.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_selected span {
+			text-decoration: none;
+			color:#666666;
+			/*background:#fff url("Imgs/MediaGallery/PagerItem.png") 0 0 no-repeat;*/
+            background-color: #E5E2DD!important;
+			}
+	
+		.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_navigationnext, 
+		.sys_theme-simple .sys_mediagallery-control  .sys_flickrpager .sys_navigation span.sys_navigationprevious {
+		display:block;
+		float:left;
+		padding:5px 35px;}
+		
+		.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_navigationnext a, 
+		.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_navigationprevious a {
+		color:#666666;
+		}
+			.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_page a:hover {
+			
+			background:#fff url("Imgs/MediaGallery/PagerItemHover.png") 0 0 no-repeat;}
+			
+			.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_page a:active {
+			color:#666666;
+			background:#fff url("Imgs/MediaGallery/PagerItemActive.png") 0 0 no-repeat;}
+			
+			.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_navigationnext a:hover, 
+			.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_navigationprevious a:hover {
+			text-decoration: underline;
+			}		
+			
+			.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation span.sys_selected span {
+			color: #00365b;
+			}
+			
+			.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation .sys_at-start, 
+			.sys_theme-simple .sys_mediagallery-control  .sys_flickrpager .sys_navigation .sys_at-end {
+			color: #bcbcbc;
+			}
+			
+			.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation .sys_disabled {
+			color: #898989;
+			}
+			
+			.sys_theme-simple .sys_mediagallery-control .sys_flickrpager .sys_navigation .sys_ellipsis {float:left;margin:0 10px;}
+		
+/* Slide Show CSS */
+
+		.sys_theme-simple .sys_imageslideshowgallery-control {
+		width:685px;
+		float:left;
+		color:#aaaaaa;
+		background:#1e2022;
+		position:relative;
+		clear: both;
+		}
+		
+		/* Clear fix for gallery */
+		.sys_theme-simple .sys_imageslideshowgallery-control:after {
+		content: "."; 
+		display: block;
+		height: 0; 
+		clear: both; 
+		visibility: hidden;}
+		
+			.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshowgallery-container {
+			background:#333;
+			position:relative;
+			padding:5px;
+			}
+
+			.sys_theme-simple .sys_imageslideshowgallery-control a {
+			outline:none;}
+			.sys_theme-simple .sys_imageslideshowgallery-control img {
+			display:block;}
+			
+			.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshowgallery-fullimagecontainer {
+			margin:0 auto;
+			}
+				.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshowgallery-fullimage-container .sys_imageslideshowgallery-fullimage {
+				margin-left: 1px;
+				}
+		
+				.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshowgallery-title, 
+				.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshowgallery-caption {
+				text-align:left;
+				font-weight:700;
+				color:#fff;
+				background: url("Imgs/Slideshow/OverlayBg.png") 0 0 repeat;
+				position:absolute;
+				bottom:5px;
+				left:5px;
+				z-index:1;
+				width:645px;
+				height:20px;
+				margin:0;
+				padding:4px 15px 4px 15px;}
+			
+				.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshowgallery-description {
+				display:none;
+				text-align:left;
+				color:#fff;
+				background: url("Imgs/Slideshow/OverlayBg.png") 0 0 repeat;
+				position:absolute;
+				bottom:5px;
+				left:5px;
+				z-index:1;
+				width:645px;
+				height:22px;
+				margin:0;
+				padding:0 15px 2px 15px;}
+		
+
+		
+			.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshownav-control {
+			height:50px;
+			margin:0 0 0 60px;
+			padding:5px 0;
+			}
+			
+			.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshownav-control ul {
+			margin:0;
+			padding:0;
+			list-style-type:none;
+			}
+			
+				.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshownav-control ul li.sys_subitem {
+				float:left;
+				clear:none;
+				margin:0;
+				padding:0;
+				border:0 none;
+				background:none;}
+				
+					.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshownav-control ul li.sys_subitem a {
+					background:none;
+					margin:0;
+					padding:0;
+					display:block;
+					position:relative;}
+					
+					.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshownav-control ul li.sys_subitem a {
+					color:#000;
+					border:2px solid #333;}
+					
+					.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshownav-control ul li.sys_subitem a:hover {
+					border:2px solid #fff;}
+					
+					.sys_theme-simple .sys_imageslideshowgallery-control .sys_imageslideshownav-control ul li.sys_selected a {
+					border:2px solid #fff;}
+					
+					.sys_theme-simple a.sys_imagegallery-prev, 
+					.sys_theme-simple a.sys_imagegallery-next {
+					position:absolute;
+					bottom:0;
+					display:block;
+					width:60px;
+					height:50px;
+					background-image:url("Imgs/Slideshow/Prev.gif");
+					background-position:50% 50%;
+					background-repeat:no-repeat;
+					overflow:hidden;
+					text-indent:-999px;
+					margin:5px 0;}
+					
+					.sys_theme-simple a.sys_imagegallery-prev {
+					left:0;}
+					
+						.sys_theme-simple a.sys_imagegallery-prev:hover {
+						background-image:url("Imgs/Slideshow/PrevHvr.gif");} 
+					
+					.sys_theme-simple a.sys_imagegallery-next {
+					right:0;
+					background-image:url("Imgs/Slideshow/Next.gif");
+					background-position:47% 50%;
+					}
+					
+						.sys_theme-simple a.sys_imagegallery-next:hover {
+						background-image:url("Imgs/Slideshow/NextHvr.gif");} 
+	
+	/* Dynamic Tag Breadcrumb */
+	.sys_theme-simple .sys_tagbreadcrumb-control {
+	width:100%;
+	margin:0 0 5px 0;
+	color:#999999;
+	font-weight:700;}
+		.sys_theme-simple .sys_tagbreadcrumb-control a {
+		margin:0 5px;
+		text-decoration:underline;}
+	
+			
+	/* Tag Cloud Control */
+	.sys_theme-simple ul.sys_tagcloud-control {
+	width:100%;
+	padding:0 0 20px 0;
+	font-size:11px;
+	text-align:left;
+	}
+	.sys_theme-simple ul.sys_tagcloud-control:after {
+	content: "."; 
+	display: block;
+	height: 0; 
+	clear: both; 
+	visibility: hidden;}
+		.sys_theme-simple ul.sys_tagcloud-control li.sys_tagcloud-tag {
+		display:inline;
+		margin:0;
+		padding:0;
+		border:0 none;
+		list-style-type:none;
+		width:auto;
+		clear:none;
+		}
+		
+		.sys_theme-simple ul.sys_tagcloud-control li a {
+		font-weight:400; 
+		display:inline; 
+		position:relative; 
+		z-index:1;
+		padding:.2em 6px .2em 0;
+		white-space:nowrap;
+		background:none;
+		line-height:1.5em;}
+		
+		.sys_theme-simple ul.sys_tagcloud-control li a.sys_tagcloud-weight1 {
+		font-size:10px;
+		}
+		
+		.sys_theme-simple ul.sys_tagcloud-control li a.sys_tagcloud-weight2 {
+		font-size:11px;
+		margin-top:-2px;
+		}
+		
+		.sys_theme-simple ul.sys_tagcloud-control li a.sys_tagcloud-weight3 {
+		font-size:12px;
+		margin-top:3px;
+		font-weight:700;
+		color:#5093c2;}
+		
+		.sys_theme-simple ul.sys_tagcloud-control li a.sys_tagcloud-weight4 {
+		font-size:15px;
+		font-weight:700;
+		color:#618ddd;}
+		
+		.sys_theme-simple ul.sys_tagcloud-control li a.sys_tagcloud-weight5 {
+		font-size:20px; 
+		font-weight:700;
+		color:#3e74d7;
+		}
+	
+	/* Archive Control */
+	.sys_theme-simple ul.sys_archive-control {
+	color:#666;}
+		.sys_theme-simple ul.sys_archive-control li {
+		font-size:1.3em;
+		border:0 none;
+		font-weight:700;}
+			.sys_theme-simple ul.sys_archive-control li ul {
+			margin:0;
+			padding:5px 0 5px 15px;}
+			
+			.sys_theme-simple ul.sys_archive-control li ul li {
+			font-weight:400;
+			font-size:.9em;
+			background:url("Imgs/Archive/ArchiveIcon.png") 0 .3em no-repeat;
+			margin:0;
+			padding:.1em 0 .1em 18px;}
+	
+	/* Tables */
+	.sys_theme-simple table {
+	border:1px solid #ccc;
+	border-collapse:collapse;
+	}
+		.sys_theme-simple table caption {
+		font-size:.9em;
+		text-align:left;
+		font-style:italic;
+		}
+		
+		.sys_theme-simple table th {
+		text-align:left;
+		color:#000;
+		background-color:#efefef;border:1px solid #ccc;vertical-align:top;padding:.2em 5px;}
+		
+		.sys_theme-simple table td {
+		text-align:left;
+		background-color:#fff;border:1px solid #ccc;vertical-align:top;padding:.2em 5px;}
+		
+	/* Generic List Control */
+	.sys_theme-simple .sys_generic_list-control dl dt.sys_generic_list-description {
+	display:none;}
+		
+	/* News and Events Feature Lists */
+	.sys_theme-simple .sys_featurelistwithimage-control {
+			width:100%;
+			clear:both;
+			position:relative;
+			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;}
+			
+			
+				.sys_theme-simple .sys_featurelistwithimage-control ul {
+				width:380px;
+				margin:0;
+				padding:0 0 0 205px;
+				list-style-type:none;
+				background:none;
+				}
+				
+					.sys_theme-simple .sys_featurelistwithimage-control li {
+					width:380px;
+					display:block;float:left;
+					margin:0 0 1px 0;
+					padding:0;
+					background-color:#e5eeed;
+					background-image:none;
+					}
+						.sys_theme-simple .sys_featurelistwithimage-control li a {
+						display:block;
+						float:left;
+						width:358px;
+						margin:0;
+						padding:4px 11px;
+						color:#000;
+						background-position:100% 0;
+						background-repeat:no-repeat;
+						background-image:url("imgs/BigArrow.png");}
+							.sys_theme-simple .sys_featurelistwithimage-control li a:hover {
+							color:#000;
+							background-color:#a6c5c3;
+							text-decoration:none;}
+					
+					.sys_theme-simple .sys_featurelistwithimage-control li img {
+					left: -5000px;	
+					float: left;	
+					visibility: hidden;	
+					position: absolute;	
+					top: 0px;		
+					background-color: #fff;
+					display:block;
+					padding:0;
+					border:1px solid #cecece;}
+					
+					.sys_theme-simple .sys_featurelistwithimage-control li.sys_selected a {
+					background-color:#a6c5c3;}
+					
+					.sys_theme-simple .sys_featurelistwithimage-control li.sys_selected img {
+					left: 0px;
+					visibility: visible;}
+					
+					.sys_theme-simple .sys_featurelistwithimage-control li.sys_more-link {
+					text-align:right;
+					color:#fff;
+					background-color:#59938f;}
+						.sys_theme-simple .sys_featurelistwithimage-control li.sys_more-link a {
+						width:339px;
+						padding-right:30px;
+						color:#fff;
+						background-color:#59938f !important;
+						background-image:url("imgs/BigArrowBold.png");}
+							.sys_theme-simple .sys_featurelistwithimage-control li.sys_more-link a:hover {
+							text-decoration:underline;}
+	 
+	 
+	 dd.sys_generic_list-releasedate {
+		 font-size:90%;
+		 color:#333;
+	 }
+	 
+	/* Note: The lightbox has its own CSS file */
+
+.sys_atoz_heading {
+	font-family: 'BureauGrotesqueThreeSeven', Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color: #333C3E;
+	padding-top: 10px;
+}
+
+/* Changes to overwite styles.css file - IKM 14 March 2011 */
+
+/* Nav letter space and width */
+.sys_theme-simple .sys_atoz-control ul li a, .sys_theme-simple .sys_atoz-control ul li span {
+    width: 16px !important;
+    float: none;
+    padding: 0.1em 0 !important;
+}
+ 
+/* Removes top and bottom borders from around A-Z nav links */
+.sys_theme-simple .sys_atoz-control {
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+/* Alter item title position */
+.sys_theme-simple .sys_itemslist .sys_subitem .sys_subitem-heading {
+ margin: 12px auto 4px 10px !important; 
+}
+
+/*Remove bg from the item list heading area */
+.sys_theme-simple .sys_itemslist .sys_subitem .sys_subitem-heading {
+	background: none !important;
+	width: 400px !important;
+}
+h3.sys_subitem-heading.sys_generic_list-subheading,
+.sys_subitem-summary.sys_generic_list-summary {float:left !important;}
+
+
+a.sys_backtotop:nth-of-type(2)
+{
+   visibility:hidden;
+}
+
+
+/* Added for search */
+#SearchResults_List div.sys_thumbnail 
+{
+    border: 0px!important;
+}
+
